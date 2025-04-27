@@ -1,0 +1,6 @@
+@SprintWisw.Api_HostAddress = http://localhost:5151
+
+GET {{SprintWisw.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
