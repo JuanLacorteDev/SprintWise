@@ -1,0 +1,54 @@
+<div class="layout-container">
+  <aside class="sidebar">
+    <img src="assets/img/SprintWise2.png" class="logo" />
+    <nav class="menu">
+      <div class="menu-group">
+        <h4>Principal</h4>
+        <ul>
+          <p-panelMenu
+            [model]="itemsPrincipal"
+            styleClass="sidebar-menu"
+          ></p-panelMenu>
+        </ul>
+      </div>
+
+      <div class="menu-group">
+        <h4>Análises</h4>
+        <ul>
+          <p-panelMenu
+            [model]="itemsAnalise"
+            styleClass="sidebar-menu"
+          ></p-panelMenu>
+        </ul>
+      </div>
+    </nav>
+    <div class="bottom-login">
+      <button
+        pButton
+        icon="pi pi-user"
+        label="Log In"
+        class="p-button-danger p-button-sm"
+      ></button>
+    </div>
+  </aside>
+
+  <main class="main-content">
+    <header class="topbar">
+      <span class="greeting">
+        <i class="pi pi-sun"></i> Olá Convidado!, Bem Vindo!
+      </span>
+
+      <div class="topbar-icons">
+        <i class="pi pi-calendar"></i>
+
+        <div class="notification-container">
+          <i class="pi pi-bell notification-icon"></i>
+          <span class="notification-badge">1</span>
+        </div>
+      </div>
+    </header>
+    <section class="content">
+      <router-outlet></router-outlet>
+    </section>
+  </main>
+</div>

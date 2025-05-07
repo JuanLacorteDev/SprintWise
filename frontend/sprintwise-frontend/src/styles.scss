@@ -1,1 +1,126 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css ou componente SCSS */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+:root {
+  --color-primary: #1D2C4C;
+  --color-accent: #2EC5A6;
+  --color-danger: #F76C5E;
+  --color-background: #F5F5F5;
+  --color-border: #B0B0B0;
+
+  --text-primary: var(--color-primary);
+  --text-muted: #666;
+}
+
+
+
+.layout-wrapper {
+  display: flex;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #26c6da;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 0;
+  padding: 1rem 0;
+  box-shadow: 2px 4px 3px rgb(0 0 0 / 50%);
+  flex-shrink: 0;
+  margin: 0.3em;
+  border-radius: 5px;
+}
+
+.logo-section {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.menu {
+  padding: 0 1rem;
+}
+
+.menu-group h4 {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+}
+
+.menu-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 20px;
+}
+
+.menu-group li {
+  margin: 0.5rem 0;
+}
+
+.menu-group a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  gap: 5px;
+  color: var(--color-primary)
+}
+
+.sidebar-footer {
+  padding: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+  min-width: 0; /* importante para impedir overflow horizontal */
+}
+
+.topbar {
+  background: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 4px 3px rgb(0 0 0 / 45%);
+  flex-shrink: 0;
+  margin: 0.5em;
+  border-radius: 5px;
+}
+
+.welcome-message {
+  font-weight: 500;
+}
+
+.topbar-actions button {
+  margin-left: 1rem;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
