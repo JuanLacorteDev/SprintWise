@@ -12,9 +12,9 @@ import { PanelMenuModule } from 'primeng/panelmenu';
   imports: [
     CommonModule,
     RouterModule,
-    ButtonModule,
     BadgeModule,
-    PanelMenuModule
+    PanelMenuModule,
+    SidebarComponent
   ],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.scss',

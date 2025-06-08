@@ -1,0 +1,92 @@
+span.profile.pi.pi-user {
+  background-color: var(--color-background);
+  padding: 0.5em;
+  border-radius: 50%;
+  margin-right: 0.4em;
+}
+
+.loginButton {
+  background: var(--color-danger);
+  padding: 0.2em;
+  border-radius: 7%;
+  text-transform: uppercase;
+}
+
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: space-between;
+  background-color: var(--color-accent);
+  color: #fff;
+  //   box-shadow: 2px 4px 3px rgb(0 0 0 / 50%);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+
+  ::ng-deep .p-panelmenu-panel {
+    border: none;
+    padding: 0.3em;
+  }
+
+  .menu {
+    padding: 0 1rem;
+    flex: 1;
+    overflow: auto;
+  }
+
+  .menu-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .menu-group h4 {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: #004d40;
+  }
+
+  .menu-group ul {
+    padding: 0;
+    margin: 0 20px;
+  }
+
+  .bottom-login {
+    padding: 1rem;
+    text-align: start;
+    border-top: solid 1px #1d2c4c52;
+  }
+}
+
+.sidebar-menu {
+  background-color: transparent !important;
+  border: none !important;
+  color: #003e3e;
+  font-weight: bold;
+}
+
+.sidebar-menu .p-panelmenu .p-panelmenu-header a {
+  color: #003e3e;
+  padding-left: 0;
+  border-radius: 7px;
+}
+
+.sidebar-menu .p-panelmenu .p-panelmenu-content {
+  background: transparent;
+  border: none;
+}
+
+.sidebar-menu .p-menuitem-link {
+  padding: 0.4rem 0;
+}
+
+.logo-section {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 130px;
+  margin-left: 3em;
+}

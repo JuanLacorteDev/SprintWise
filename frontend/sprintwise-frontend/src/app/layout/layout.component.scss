@@ -3,78 +3,24 @@
   height: 100vh;
   background-color: var(--color-background);
 
- 
-  .sidebar {
-    width: 240px;
-    background-color: var(--color-accent);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
-
-    ::ng-deep .p-panelmenu-panel {
-      border: none;
-      padding: 0.3em;
-    }
-
-    .menu {
-      padding: 0 1rem;
-      flex: 1;
-    }
-    
-    .menu-group {
-      margin-bottom: 1.5rem;
-    }
-    
-    .menu-group h4 {
-      font-size: 0.9rem;
-      margin-bottom: 0.5rem;
-      text-transform: uppercase;
-      color: #004d40;
-    }
-
-    .bottom-login {
-      padding: 1rem;
-      text-align: center;
-      border-top: solid 1px #1d2c4c52
-    }
-  }
-
-  .sidebar-menu {
-    background-color: transparent !important;
-    border: none !important;
-    color: #003e3e;
-    font-weight: bold;
-  }
-  
-  .sidebar-menu .p-panelmenu .p-panelmenu-header a {
-    color: #003e3e;
-    padding-left: 0;
-  }
-  
-  .sidebar-menu .p-panelmenu .p-panelmenu-content {
-    background: transparent;
-    border: none;
-  }
-  
-  .sidebar-menu .p-menuitem-link {
-    padding: 0.4rem 0;
-  }
-
   .main-content {
     flex: 1;
     display: flex;
     flex-direction: column;
 
     .topbar {
-      background-color: white;
+      background: white;
       padding: 1rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+      flex-shrink: 0;
+      margin: 0.5em;
+      border-radius: 5px;
+    }
 
+    .topbar {
       .greeting {
         font-weight: 500;
         color: var(--text-primary);
@@ -82,7 +28,6 @@
 
       .topbar-icons {
         display: flex;
-        gap: 1.5rem;
         align-items: center;
         .pi {
           font-size: 1.2rem;
@@ -125,4 +70,12 @@
   text-align: center;
   box-shadow: 0 0 0 2px white;
 }
+
+.layout-wrapper {
+  display: flex;
+  // height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
 

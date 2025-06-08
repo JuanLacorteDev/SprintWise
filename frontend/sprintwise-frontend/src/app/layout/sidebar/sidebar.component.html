@@ -1,29 +1,33 @@
-<!-- Sidebar -->
-<aside class="sidebar">
-    <div class="logo-section">
-      <img src="assets/img/SprintWise2.png" alt="SprintWise" class="logo" />
-    </div>
-
+ <aside class="sidebar">
+    <img src="assets/img/SprintWise2.png" class="logo" />
     <nav class="menu">
       <div class="menu-group">
         <h4>Principal</h4>
-        <p-panelMenu [model]="itemsPrincipal" styleClass="sidebar-menu"></p-panelMenu>
+        <ul>
+          <p-panelMenu
+            [model]="itemsPrincipal"
+            styleClass="sidebar-menu"
+          ></p-panelMenu>
+        </ul>
       </div>
 
       <div class="menu-group">
         <h4>Análises</h4>
         <ul>
-            <p-panelMenu [model]="itemsAnalise" styleClass="sidebar-menu"></p-panelMenu>
+          <p-panelMenu
+            [model]="itemsAnalise"
+            styleClass="sidebar-menu"
+          ></p-panelMenu>
         </ul>
       </div>
     </nav>
-
     <div class="bottom-login">
+      <span class="profile pi pi-user">
+      </span>
       <button
         pButton
-        icon="pi pi-user"
         label="Log In"
-        class="p-button-danger p-button-sm"
+        class="p-button-danger p-button-sm loginButton"
       ></button>
     </div>
   </aside>

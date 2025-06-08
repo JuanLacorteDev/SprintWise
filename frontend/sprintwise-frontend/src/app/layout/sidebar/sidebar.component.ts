@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { MenuItem } from 'primeng/api';
+import { ButtonModule } from 'primeng/button';
 import { PanelMenuModule } from 'primeng/panelmenu';
 
 @Component({
   selector: 'app-sidebar',
-  imports: [PanelMenuModule],
+  imports: [PanelMenuModule, ButtonModule],
   templateUrl: './sidebar.component.html',
-  styleUrl: '../layout.component.scss'
+  styleUrl: './sidebar.component.scss',
 })
-
 export class SidebarComponent implements OnInit {
   itemsPrincipal: MenuItem[] = [];
   itemsAnalise: MenuItem[] = [];
@@ -18,24 +18,34 @@ export class SidebarComponent implements OnInit {
       {
         label: 'Dashboard',
         icon: 'pi pi-home',
-        routerLink: '/dashboard',
+        routerLink: '/projetos',
       },
       {
-        label: 'Usuários',
+        label: 'Projetos',
+        icon: 'pi pi-objects-column',
+        routerLink: '/projetos',
+      },
+      {
+        label: 'Squads',
         icon: 'pi pi-users',
-        routerLink: '/usuarios',
+        routerLink: '/squads',
+      },
+      {
+        label: 'Sprints',
+        icon: 'pi pi-calendar-clock',
+        routerLink: '/sprints',
       },
     ];
 
     this.itemsAnalise = [
       {
         label: 'Relatórios',
-        icon: 'pi pi-home',
+        icon: 'pi pi-file-excel',
         routerLink: '/dashboard',
       },
       {
         label: 'Gráficos',
-        icon: 'pi pi-users',
+        icon: 'pi pi-chart-line',
         routerLink: '/usuarios',
       },
     ];

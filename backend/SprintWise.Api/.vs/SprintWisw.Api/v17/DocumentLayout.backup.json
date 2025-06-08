@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SprintWise\\SprintWise\\backend\\SprintWisw.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{793CECFC-5379-44DD-A83D-593934CF8626}|..\\SprintWise.Dal\\SprintWise.Dal.csproj|d:\\sprintwise\\sprintwise\\backend\\sprintwise.dal\\swdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{793CECFC-5379-44DD-A83D-593934CF8626}|..\\SprintWise.Dal\\SprintWise.Dal.csproj|d:\\sprintwise\\sprintwise\\backend\\sprintwise.dal\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA423DB-CF1B-B362-3177-B5A68A9E5905}|SprintWisw.Api.csproj|d:\\sprintwise\\sprintwise\\backend\\sprintwisw.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA423DB-CF1B-B362-3177-B5A68A9E5905}|SprintWisw.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA423DB-CF1B-B362-3177-B5A68A9E5905}|SprintWisw.Api.csproj|d:\\sprintwise\\sprintwise\\backend\\sprintwisw.api\\configprogram\\postgresqlconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCA423DB-CF1B-B362-3177-B5A68A9E5905}|SprintWisw.Api.csproj|solutionrelative:configprogram\\postgresqlconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCA423DB-CF1B-B362-3177-B5A68A9E5905}|SprintWisw.Api.csproj|d:\\sprintwise\\sprintwise\\backend\\sprintwisw.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FCA423DB-CF1B-B362-3177-B5A68A9E5905}|SprintWisw.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "USER.cs",
+              "DocumentMoniker": "D:\\SprintWise\\SprintWise\\backend\\SprintWise.Dal\\Models\\USER.cs",
+              "RelativeDocumentMoniker": "..\\SprintWise.Dal\\Models\\USER.cs",
+              "ToolTip": "D:\\SprintWise\\SprintWise\\backend\\SprintWise.Dal\\Models\\USER.cs",
+              "RelativeToolTip": "..\\SprintWise.Dal\\Models\\USER.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:34:50.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostgreSqlConfiguration.cs",
+              "DocumentMoniker": "D:\\SprintWise\\SprintWise\\backend\\SprintWisw.Api\\ConfigProgram\\PostgreSqlConfiguration.cs",
+              "RelativeDocumentMoniker": "ConfigProgram\\PostgreSqlConfiguration.cs",
+              "ToolTip": "D:\\SprintWise\\SprintWise\\backend\\SprintWisw.Api\\ConfigProgram\\PostgreSqlConfiguration.cs",
+              "RelativeToolTip": "ConfigProgram\\PostgreSqlConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:28:19.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SprintWise\\SprintWise\\backend\\SprintWisw.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SprintWise\\SprintWise\\backend\\SprintWisw.Api\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:25:05.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SWDbContext.cs",
+              "DocumentMoniker": "D:\\SprintWise\\SprintWise\\backend\\SprintWise.Dal\\SWDbContext.cs",
+              "RelativeDocumentMoniker": "..\\SprintWise.Dal\\SWDbContext.cs",
+              "ToolTip": "D:\\SprintWise\\SprintWise\\backend\\SprintWise.Dal\\SWDbContext.cs",
+              "RelativeToolTip": "..\\SprintWise.Dal\\SWDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T21:20:42.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SprintWise\\SprintWise\\backend\\SprintWisw.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\SprintWise\\SprintWise\\backend\\SprintWisw.Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-07T21:12:59.103Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

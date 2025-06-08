@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SprintWise.Api", "SprintWise.Api.csproj", "{8C4B007C-9642-F540-634D-66D1BCF3EBB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SprintWise.Dal", "..\SprintWise.Dal\SprintWise.Dal.csproj", "{F7AC9E82-C869-8E8E-6312-1C4295B5B5A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C4B007C-9642-F540-634D-66D1BCF3EBB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4B007C-9642-F540-634D-66D1BCF3EBB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4B007C-9642-F540-634D-66D1BCF3EBB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4B007C-9642-F540-634D-66D1BCF3EBB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7AC9E82-C869-8E8E-6312-1C4295B5B5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7AC9E82-C869-8E8E-6312-1C4295B5B5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7AC9E82-C869-8E8E-6312-1C4295B5B5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7AC9E82-C869-8E8E-6312-1C4295B5B5A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {166DF427-A7E6-499C-8150-2B8671D95DAC}
+	EndGlobalSection
+EndGlobal
