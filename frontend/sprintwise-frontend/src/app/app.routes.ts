@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 
 import { LayoutComponent } from './layout/layout.component';
+import { PlanningPokerComponent } from './components/planning-poker/planning-poker.component';
 
 export const routes: Routes = [
   {
@@ -11,6 +12,10 @@ export const routes: Routes = [
         path: '',
         redirectTo: 'dashboard',
         pathMatch: 'full'
+      },
+       {
+        path: 'planning-poker',
+        component: PlanningPokerComponent
       },
       {
         path: 'dashboard',
